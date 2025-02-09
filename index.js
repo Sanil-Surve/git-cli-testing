@@ -4,7 +4,7 @@ const PORT = 8080; // Change the port if needed
 
 // Define a simple route
 app.get("/", (req, res) => {
-  res.send("Welcome to my Node.js github cli testing server!");
+  res.json({ message: "Welcome to my Node.js GitHub CLI testing server!" });
 });
 
 // Start the server
